@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="stylesheet" type="text/css" href="css/responsive.css" />
+    <title>Portfolio - Marcelo A.M. Paixão</title>
+</head>
+
+<body id="menu" onload="alertMsg()">
+  <nav id="menu-h">
+    <ul>
+      <h1 class="menu-title">Digital MarPort</h1>
+      <li><a href="#menu">Home</a></li>
+      <li><a href="#sobre">Sobre</a></li>
+      <li><a href="#projeto">Projetos</a></li>
+      <li><a href="#social">Social</a></li>
+      <li><a href="#newsletter">Newsletter</a></li>
+      <li><a href="html/login.html">Login</a></li>
+      <li><a href="html/sign-up.html">Sign-up</a></li>
+    </ul>
+  </nav>
+  <section class="container-about-top" id="sobre">
+    <div class="container-about">
+      <div class="container-about-principal">
+        <img class="image-about" src="images/img-about.jpg" alt="Imagem do Marcelo" />
+        <h2 class="title-about">Me chamo Marcelo Augusto</h2>
+        <p class="paragrafo-about">Estou aprendendo a Desenvolver com HTML, CSS, JavaScript, Python e entre outros.</p>
+        <p class="paragrafo-about">Algumas dessas linguagens estão sendo utilizadas neste Portfolio para demonstração do meu aprendizado.</p>
+      </div>
+    </div>
+  </section>
+  <section class="container-projeto-principal" id="projeto">
+    <div class="container-projeto">
+      <div class="container-projeto-1">
+        <h2>Projetos</h2>
+        <p class="project-paragrafo">1# Projeto: Python</p>
+        <a href="https://drive.google.com/drive/folders/1atbr6iSrX7eJs4LR5mz4fE1p_EJgfQPM" target="_blank"><button
+            class="button-style">System School v2</button></a>
+      </div>
+      <div class="container-projeto-2">
+        <p class="project-paragrafo">2# Projeto: Login with JS</p>
+        <!-- <img src="images/login-page.PNG" alt="Imagem Página de Login"> -->
+        <button class="button-style" id="login-page" onclick="page1()">MarPort Login</button>
+      </div>
+      <div class="container-projeto-3">
+        <p class="project-paragrafo">3# Projeto: Sign-Up with JS and Verification Password</p>
+        <!-- <img src="images/signup-page.PNG" alt="Imagem Página de Login"> -->
+        <button class="button-style" id="signup-page" onclick="page2()">MarPort Sign-up</button>
+      </div>
+      <div class="container-projeto-4">
+        <p class="project-paragrafo">4# Projeto: Gerencie seus Habitos</p>
+        <!-- <img src="images/signup-page.PNG" alt="Imagem Página de Login"> -->
+        <button class="button-style" id="signup-page" onclick="page3()">MarPort Habits</button>
+      </div>
+    </div>
+  </section>
+  <section class="container-social-principal" id="social">
+    <div class="container-social-secundario">
+      <h2>Social</h2>
+      <div class="container-social-icons">
+        <a href="" class="whatsapp"></a>
+      </div>
+    </div>
+  </section>
+  <section class="container-newsletter-principal" id="newsletter">
+    <div class="container-newsletter-image">
+      <a href="https://storyset.com/technology" target="_blank"><img src="images/digital-lifestyle.png"
+          alt="Technology illustrations by Storyset"></a>
+    </div>
+    <div class="container-newsletter-secundario">
+      <form class="newsletter-form" action="index.html" method="post">
+        <div class="newsletter-form-container">
+          <h2 class="newsletter-title">Inscreva-se na Newsletter</h2>
+          <p class="newsletter-paragrafo">para receber noticias em seu e-mail</p>
+          <div class="post-newsletter">
+            <div class="newsletter-input">
+              <input class="interface-input" type="email" name="E-mail" id="email" placeholder="Digite seu e-mail:"
+                title="E-mail" required />
+
+              <input class="interface-input2" type="submit" value="Subscribe" title="Enviar" onclick="subscribeBtn()" />
+            </div>
+          </div>
+        </div>
+      </form>
+    </div>
+  </section>
+  <footer>
+    <p>Desenvolvido por Marcelo Augusto</p>
+  </footer>
+
+  <script src="./js/home.js"></script>
+  <script src="./index.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-auth.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-database.js"></script>
+</body>
+
+</html>
