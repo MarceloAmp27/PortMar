@@ -18,15 +18,15 @@ body::-webkit-scrollbar {
 }
 
 body::-webkit-scrollbar-track {
-      border-radius: 3px; 
+  border-radius: 3px;
 
-  background: rgb(255, 255, 255);  
+  background: rgb(255, 255, 255);
 }
 
 body::-webkit-scrollbar-thumb {
   background-color: rgb(3, 3, 43);
-  border-radius: 40px; 
-  border: 2px solid rgb(255, 255, 255); 
+  border-radius: 40px;
+  border: 2px solid rgb(255, 255, 255);
 }
 
 header {
@@ -172,9 +172,10 @@ input:checked {
 .rodape-info {
   display: flex;
   flex-direction: column;
-  justify-content: flex-end;
   gap: 40px;
   font-family: "Roboto Mono";
+  justify-content: flex-end;
+  align-items: flex-end;
 }
 
 .rodape-info h1 {
