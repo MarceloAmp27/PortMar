@@ -1,13 +1,13 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="../images/icon-login.png" type="image/x-icon">
-    <link rel="stylesheet" href="../css/signup.css">
-    <link rel="stylesheet" href="../css/responsive.css">
+    <link rel="shortcut icon" href="../../img/icon-login.png" type="image/x-icon">
+    <link rel="stylesheet" href="./css/signup.css">
+    <link rel="stylesheet" href="./css/responsive.css">
     <script src="https://kit.fontawesome.com/b83066dc1c.js" crossorigin="anonymous"></script>
     <title>Cadastro - PortMar</title>
 </head>
@@ -16,7 +16,7 @@
     <section class="signup-area">
         <div class="signup">
             <div class="signup-top">
-                <img src="../images/icon-login.png" alt="">
+                <img src="../../img/icon-login.png" alt="">
                 <h1 class="title-signup">Cadastro de Usuários</h1>
             </div>
             <form method="post">
@@ -25,12 +25,11 @@
                     <label>Nome</label>
                 </div>
                 <div class="inputBox">
-                    <input type="text" name="sobrenome" id="sobrenome" title="Digite seu Sobrenome" maxlength="50"
-                        >
+                    <input type="text" name="sobrenome" id="sobrenome" title="Digite seu Sobrenome" maxlength="50">
                     <label>Sobrenome</label>
                 </div>
                 <div class="inputBox">
-                    <input type="email" name="email" id="email"  title="Digite seu E-mail" maxlength="100">
+                    <input type="email" name="email" id="email" title="Digite seu E-mail" maxlength="100">
                     <label>E-mail</label>
                 </div>
                 <div class="inputBox">
@@ -57,7 +56,8 @@
                     <p id="messageText"></p>
                 </div>
                 <div class="inputBox">
-                    <button type="submit" name="submit" id="signUp" onclick="verifyPswd(); rgsUsrVrfPswd();">sign-up</button>
+                    <button type="submit" name="submit" id="signUp"
+                        onclick="verifyPswd(); rgsUsrVrfPswd();">sign-up</button>
                 </div>
             </form>
         </div>
@@ -65,8 +65,8 @@
     <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-app.js"></script>
     <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-auth.js"></script>
     <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-database.js"></script>
-    <script src="../js/signup.js"></script>
-    <script src="../js/firebase.js"></script>
+    <script src="../../src/firebase.js"></script>
+    <script src="./js/signup.js"></script>
 </body>
 
 </html>

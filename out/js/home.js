@@ -12,13 +12,13 @@ function alertMsg() {
 }
 
 function page1() {
-  window.location.href = "./html/login.html";
+  window.location.href = "./projects/login/login.html";
 }
 
 function page2() {
-  window.location.href = "./html/sign-up.html";
+  window.location.href = "./projects/signup/sign-up.html";
 }
 
 function page3() {
-  window.location.href = "./projects/nlw-setup/index.html";
+  window.location.href = "./projects/rocketseat/habits/index.html";
 }
