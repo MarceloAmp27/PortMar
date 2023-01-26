@@ -1,12 +1,13 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" type="text/css" href="css/style.css" />
-    <link rel="stylesheet" type="text/css" href="css/responsive.css" />
-    <title>Portfolio - Marcelo A.M. Paixão</title>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" type="text/css" href="./css/style.css" />
+  <link rel="stylesheet" type="text/css" href="./css/responsive.css" />
+  <title>Portfolio - Marcelo A.M. Paixão</title>
 </head>
 
 <body id="menu" onload="alertMsg()">
@@ -18,42 +19,47 @@
       <li><a href="#projeto">Projetos</a></li>
       <li><a href="#social">Social</a></li>
       <li><a href="#newsletter">Newsletter</a></li>
-      <li><a href="html/login.html">Login</a></li>
-      <li><a href="html/sign-up.html">Sign-up</a></li>
+      <li><a href="./projects/login/login.html">Login</a></li>
+      <li><a href="./projects/signup/sign-up.html">Sign-up</a></li>
     </ul>
   </nav>
   <section class="container-about-top" id="sobre">
     <div class="container-about">
       <div class="container-about-principal">
-        <img class="image-about" src="images/img-about.jpg" alt="Imagem do Marcelo" />
+        <img class="image-about" src="./img/img-about.jpg" alt="Imagem do Marcelo" />
         <h2 class="title-about">Me chamo Marcelo Augusto</h2>
         <p class="paragrafo-about">Estou aprendendo a Desenvolver com HTML, CSS, JavaScript, Python e entre outros.</p>
-        <p class="paragrafo-about">Algumas dessas linguagens estão sendo utilizadas neste Portfolio para demonstração do meu aprendizado.</p>
+        <p class="paragrafo-about">Algumas dessas linguagens estão sendo utilizadas neste Portfolio para demonstração do
+          meu aprendizado.</p>
       </div>
     </div>
   </section>
   <section class="container-projeto-principal" id="projeto">
     <div class="container-projeto">
       <div class="container-projeto-1">
-        <h2>Projetos</h2>
+        <h2>Meus Projetos</h2>
         <p class="project-paragrafo">1# Projeto: Python</p>
-        <a href="https://drive.google.com/drive/folders/1atbr6iSrX7eJs4LR5mz4fE1p_EJgfQPM" target="_blank"><button
-            class="button-style">System School v2</button></a>
+        <button class="button-style" onclick="page1()">1# System School</button>
       </div>
       <div class="container-projeto-2">
         <p class="project-paragrafo">2# Projeto: Login with JS</p>
         <!-- <img src="images/login-page.PNG" alt="Imagem Página de Login"> -->
-        <button class="button-style" id="login-page" onclick="page1()">MarPort Login</button>
+        <button class="button-style" id="login-page" onclick="page2()">PortMar Login</button>
       </div>
       <div class="container-projeto-3">
         <p class="project-paragrafo">3# Projeto: Sign-Up with JS and Verification Password</p>
         <!-- <img src="images/signup-page.PNG" alt="Imagem Página de Login"> -->
-        <button class="button-style" id="signup-page" onclick="page2()">MarPort Sign-up</button>
+        <button class="button-style" id="signup-page" onclick="page3()">PortMar Sign-up</button>
       </div>
       <div class="container-projeto-4">
         <p class="project-paragrafo">4# Projeto: Gerencie seus Habitos</p>
         <!-- <img src="images/signup-page.PNG" alt="Imagem Página de Login"> -->
-        <button class="button-style" id="signup-page" onclick="page3()">MarPort Habits</button>
+        <button class="button-style" id="signup-page" onclick="page4()">PortMar Habits</button>
+        </div>
+        <div class="container-projeto-5">
+          <p class="project-paragrafo">5# Projeto: Social Links</p>
+          <!-- <img src="images/signup-page.PNG" alt="Imagem Página de Login"> -->
+          <button class="button-style" id="signup-page" onclick="page5()">PortMar Social Links</button>
       </div>
     </div>
   </section>
@@ -67,7 +73,7 @@
   </section>
   <section class="container-newsletter-principal" id="newsletter">
     <div class="container-newsletter-image">
-      <a href="https://storyset.com/technology" target="_blank"><img src="images/digital-lifestyle.png"
+      <a href="https://storyset.com/technology" target="_blank"><img src="./img/digital-lifestyle.png"
           alt="Technology illustrations by Storyset"></a>
     </div>
     <div class="container-newsletter-secundario">

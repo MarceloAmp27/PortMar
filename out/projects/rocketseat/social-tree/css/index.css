@@ -1,0 +1,117 @@
+/* Others for HTML Code */
+:root {
+  --body-bg-color: #faf7fd;
+  --purple: #bb99dd;
+  --purple-bold: #7f2fcf;
+}
+
+* {
+  margin: 0;
+  border: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--body-bg-color);
+  color: var(--purple);
+  font-family: "Poppins", sans-serif;
+  width: 100%;
+}
+
+/* Container */
+
+.social-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+/* Perfil do Usuário */
+.perfil-image-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+  gap: 30px;
+}
+
+.perfil-image {
+  width: 200px;
+  border-radius: 50%;
+  border: 2px solid var(--purple);
+  padding: 13px;
+}
+
+.perfil-link {
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  text-decoration: none;
+  color: var(--purple);
+  transition: color 0.4s;
+}
+
+.perfil-link:hover {
+  color: var(--purple-bold);
+}
+
+/* Links das Redes Sociais */
+.social-links {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+/* Buttons Link Social */
+.link-address {
+  width: 326px;
+  height: 49px;
+
+  background: transparent;
+  border: 2px solid var(--purple);
+  border-radius: 4px;
+
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: var(--purple);
+  transition: border 0.4s;
+}
+
+.link-address:hover {
+  border: 2px solid var(--purple-bold);
+  color: var(--purple-bold);
+  cursor: pointer;
+}
+/* Rodapé Links */
+
+.rodape-social-links {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+}
+
+.button-icons-social {
+  padding: 10px;
+  border-radius: 50px;
+  background: #81649e;
+  display: flex;
+  align-items: center;
+  transition: background 0.4s;
+}
+
+.button-icons-social:hover{
+  background: #5400a9;
+  cursor: pointer;
+}
