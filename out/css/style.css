@@ -6,6 +6,7 @@
 }
 
 body{
+  font-family: fontAwesome;
   font-family: 'Times New Roman', Times, serif;
   background-color: #031e55;
   user-select: none;
@@ -61,8 +62,8 @@ body::-webkit-scrollbar-thumb {
   padding: 25px;
   border-radius: 50px;
   text-decoration: none;
-  color: rgb(154, 153, 228);
-  transition: background 0.4s;
+  color: rgba(154, 153, 228, 0.836);
+  transition: all 0.4s;
 }
 
 #menu-h ul li a:hover {
@@ -71,7 +72,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 /* Section About*/
-.container-about-top{
+.container-about-principal{
   display: flex;
   height: 30vw;
   justify-content: center;
@@ -85,12 +86,12 @@ body::-webkit-scrollbar-thumb {
   border-radius: 20px;
   width: 85%;
   height: 90%;
-  margin-bottom: 30px;
+  margin-top: 30px;
   box-shadow: 5px 5px 50px rgb(0 7 18);
 
 }
 
-.container-about-principal{
+.container-about-top{
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -117,7 +118,7 @@ body::-webkit-scrollbar-thumb {
   align-items: center;
   width: 100%;
   height: 22vw;
-  padding-top: 120px;
+  margin-top: 120px;
 }
 
 .container-projeto{
@@ -157,8 +158,7 @@ body::-webkit-scrollbar-thumb {
   color: rgb(0, 0, 0);
   font-family:'Times New Roman', Times, serif;
   font-weight: 400;
-  transition: background 0.4s;
-  transition: color 0.4s;
+  transition: all 0.4s;
 }
 
 .button-style:hover{
@@ -176,7 +176,7 @@ body::-webkit-scrollbar-thumb {
   align-items: center;
   width: 100%;
   height: 22vw;
-  padding-top: 120px;
+  margin-top: 120px;
 }
 
 .container-social-secundario{
@@ -200,37 +200,40 @@ body::-webkit-scrollbar-thumb {
   height: 30vw;
   width: 100%;
   background: #07145c;
-  padding: 120px;
 }
 
 .container-newsletter-image{
   display: flex;
   align-items: center;
-  align-content: center;
   justify-content: center;
   width: 50%;
-  height: auto;
+  height: 100%;
+}
+
+.container-newsletter-image a{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  height: 50%;
 }
 
 .container-newsletter-image a img{
   display: flex;
-  align-items: center;
-  align-content: center;
-  width: 570px;
-  height: 570px;
   justify-content: center;
-  flex-direction: row;
+  align-items: center;
+  width: 30vw;
+  height: 30vw;
 }
 
 .container-newsletter-secundario{
   display: flex;
   flex-direction: column;
-  align-content: center;
   justify-content: center;
   align-items: center;
   background: #0e2395;
   color: #e5f3ff;
-  width: 85%;
+  width: 70%;
   height: 100%;
   border-radius: 5px;
 }
@@ -238,9 +241,7 @@ body::-webkit-scrollbar-thumb {
 .newsletter-form{
   display: flex;
   flex-direction: column;
-  width: 90%;
-  height: 80%;
-  align-content: center;
+  width: 80%;
   justify-content: center;
   align-items: center;
 }
@@ -248,11 +249,9 @@ body::-webkit-scrollbar-thumb {
 .newsletter-form-container{
   display: flex;
   flex-direction: column;
-  align-content: center;
-  align-items: flex-start;
+  align-items: center;
   justify-content: center;
   width: 100%;
-  height: auto;
 }
 
 .newsletter-title{
@@ -270,8 +269,8 @@ body::-webkit-scrollbar-thumb {
   flex-direction: column;
   align-content: center;
   justify-content: center;
-  width: 50%;
-  padding: 50px;
+  width: 45%;
+  margin-top: 30px;
 }
 
 .interface-input{
@@ -284,8 +283,8 @@ body::-webkit-scrollbar-thumb {
   margin-top: 20px;
   padding: 15px;
   background-color: rgb(0, 47, 150);
-  color: black;
-  transition: background 0.5s;
+  color: rgba(223, 194, 194, 0.521);
+  transition: all 0.5s;
 }
 
 .interface-input::placeholder{
@@ -297,6 +296,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .interface-input:focus{
+  border: 3px solid #066bfd;
   box-shadow: 1px 1px 8px rgb(0, 0, 0);
   background-color: #0e2395;
   color: white;
@@ -313,7 +313,7 @@ body::-webkit-scrollbar-thumb {
   padding: 15px;
   background-color: rgb(0, 40, 128);
   color: rgb(161, 161, 161);
-  transition: background 0.5s;
+  transition: all 0.5s;
 }
 
 .interface-input2:hover{
@@ -323,12 +323,60 @@ body::-webkit-scrollbar-thumb {
   cursor: pointer;
 }
 
-.post-newsletter{
+/* Footer */
+
+#footer-general {
+  height: 18vw;
+  background-color: #0e0e0e54;
+  color: rgb(247, 243, 235);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  gap: 30%;
+  margin-top: 4vw;
+}
+
+.social-info {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 30px;
+}
+
+.icons-info {
+  color: aliceblue;
   display: flex;
   flex-direction: column;
   align-items: center;
-  align-content: center;
-  width: 100%;
-  height: 100%;
-  padding-top: 35px;
+  font-size: 24px;
+  gap: 15px;
+}
+
+.social-info a {
+  text-decoration: none;
+  color: #a1a1aa;
+}
+
+.contact-info a {
+  text-decoration: none;
+  color: #a1a1aa;
+}
+
+.rodape-info {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  font-family: "Roboto Mono";
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.rodape-info h1 {
+  font-size: 24px;
+}
+
+.rodape-info p {
+  font-size: 14px;
 }

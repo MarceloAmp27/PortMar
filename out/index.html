@@ -12,7 +12,7 @@
 
 <body id="menu" onload="alertMsg()">
   <nav id="menu-h">
-    <ul>
+    <ul class="menu-ul">
       <h1 class="menu-title">Digital PortMar</h1>
       <li><a href="#menu">Home</a></li>
       <li><a href="#sobre">Sobre</a></li>
@@ -23,9 +23,9 @@
       <li><a href="./projects/signup/sign-up.html">Sign-up</a></li>
     </ul>
   </nav>
-  <section class="container-about-top" id="sobre">
+  <section class="container-about-principal" id="sobre">
     <div class="container-about">
-      <div class="container-about-principal">
+      <div class="container-about-top">
         <img class="image-about" src="./img/img-about.jpg" alt="Imagem do Marcelo" />
         <h2 class="title-about">Me chamo Marcelo Augusto</h2>
         <p class="paragrafo-about">Estou aprendendo a Desenvolver com HTML, CSS, JavaScript, Python e entre outros.</p>
@@ -55,11 +55,11 @@
         <p class="project-paragrafo">4# Projeto: Gerencie seus Habitos</p>
         <!-- <img src="images/signup-page.PNG" alt="Imagem Página de Login"> -->
         <button class="button-style" id="signup-page" onclick="page4()">PortMar Habits</button>
-        </div>
-        <div class="container-projeto-5">
-          <p class="project-paragrafo">5# Projeto: Social Links</p>
-          <!-- <img src="images/signup-page.PNG" alt="Imagem Página de Login"> -->
-          <button class="button-style" id="signup-page" onclick="page5()">PortMar Social Links</button>
+      </div>
+      <div class="container-projeto-5">
+        <p class="project-paragrafo">5# Projeto: Social Links</p>
+        <!-- <img src="images/signup-page.PNG" alt="Imagem Página de Login"> -->
+        <button class="button-style" id="signup-page" onclick="page5()">PortMar Social Links</button>
       </div>
     </div>
   </section>
@@ -81,24 +81,39 @@
         <div class="newsletter-form-container">
           <h2 class="newsletter-title">Inscreva-se na Newsletter</h2>
           <p class="newsletter-paragrafo">para receber noticias em seu e-mail</p>
-          <div class="post-newsletter">
-            <div class="newsletter-input">
-              <input class="interface-input" type="email" name="E-mail" id="email" placeholder="Digite seu e-mail:"
-                title="E-mail" required />
+          <div class="newsletter-input">
+            <input class="interface-input" type="email" name="E-mail" id="email" placeholder="Digite seu e-mail:" title="E-mail"
+              required />
 
-              <input class="interface-input2" type="submit" value="Subscribe" title="Enviar" onclick="subscribeBtn()" />
+            <input class="interface-input2" type="submit" value="Subscribe" title="Enviar" onclick="subscribeBtn()" />
             </div>
-          </div>
-        </div>
+            </div>
       </form>
     </div>
   </section>
-  <footer>
-    <p>Desenvolvido por Marcelo Augusto</p>
+  <footer id="footer-general">
+    <div class="social-info">
+      <div class="icons-info">
+        <a href="https://www.linkedin.com/in/marceloamp-04/" target="_blank" class="fa-brands fa-linkedin"></a>
+        <a href="https://github.com/MarceloAmp27" target="_blank" class="fa-brands fa-github"></a>
+        <a href="https://www.instagram.com/marceloamp_ofc/" target="_blank" class="fa-brands fa-instagram"></a>
+      </div>
+      <div class="icons-info">
+        <a href="tel:+5511988024979" class="fa-sharp fa-solid fa-mobile"></a>
+        <a href="mailto:marceloamellopaixao@gmail.com" class="fa-solid fa-inbox"></a>
+        <a href="https://wa.me/5511988024979" target="_blank" class="fa-brands fa-whatsapp"></a>
+      </div>
+    </div>
+    <div class="rodape-info">
+      <h1>PortMar - Portfólio Digital</h1>
+      <p>PortMar© Copyright by Marcelo Augusto || 01/2023</p>
+    </div>
   </footer>
 
+  <script src="https://kit.fontawesome.com/b83066dc1c.js" crossorigin="anonymous"></script>
   <script src="./js/home.js"></script>
   <script src="./src/index.js"></script>
+
 </body>
 
 </html>
