@@ -1,43 +1,53 @@
-@media (max-width: 570px){
-  header{
+@media (max-width: 570px) {
+  header {
     padding: 32px;
   }
-  button div{
+
+  .header-top {
+    gap: 15px;
+  }
+
+  button div {
     display: none;
   }
 
-  #footer-general{
+  #footer-general {
     flex-direction: column;
     height: 36vh;
     padding: 15px;
     gap: 12%;
   }
 
-  .rodape-info{
+  .rodape-info {
     align-items: center;
   }
 }
 
-@media (max-width: 300px){
-  header{
+@media (max-width: 300px) {
+  header {
     padding: 21px;
   }
-  button div{
+
+  .header-top {
+    gap: 15px;
+  }
+
+  button div {
     display: none;
   }
 
-  #form-habits{
+  #form-habits {
     padding: 132px 48px 48px;
   }
 
-  #footer-general{
+  #footer-general {
     flex-direction: column;
     height: 36vh;
     padding: 15px;
     gap: 12%;
   }
 
-  .rodape-info{
+  .rodape-info {
     align-items: center;
   }
 }

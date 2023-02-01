@@ -5,7 +5,7 @@ let btnMain = document.getElementById("returnMain");
 
 btnDay.addEventListener("click", add);
 form.addEventListener("change", save);
-btnMain.addEventListener("click", returnMain);
+btnMain.addEventListener("click", backMain);
 
 function add() {
   const today = new Date().toLocaleDateString("pt-BR").slice(0, -5);
@@ -25,10 +25,10 @@ function save() {
   localStorage.setItem("PortMar@habits", JSON.stringify(nlwSetup.data));
 }
 
-function returnMain() {
+function backMain() {
   let local = "../../../index.html";
-  if (btnMain == true) {
-    alert("Você está sendo direcionado ao Menu");
+  if (!onclick) {
+    alert("Você está sendo direcionado de volta ao Menu");
     location.href = local;
   } else {
     return;

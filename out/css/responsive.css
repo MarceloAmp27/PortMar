@@ -1,4 +1,4 @@
-@media (max-width: 570px) {
+@media (max-width: 600px) {
   .container-about-principal {
     height: 90vw;
   }
@@ -12,7 +12,7 @@
   }
 
   .container-projeto-principal {
-    margin-top: 65vw;
+    margin-top: 275px;
   }
 
   .container-projeto {
@@ -20,13 +20,13 @@
   }
 
   .container-social-principal {
-    margin-top: 70vw;
+    margin-top: 270px;
   }
 
   .container-newsletter-principal {
     background: none;
     height: 65vw;
-    margin-top: 5vw;
+    margin-top: 30px;
   }
 
   .container-newsletter-image {

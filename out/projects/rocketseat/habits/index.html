@@ -15,21 +15,23 @@
   <title>PortMar - Habits</title>
 </head>
 
-<body onload="loadPage()">
+<body>
   <header>
     <img src="./assets/logo.svg" alt="Logo do App: habits">
-    <button>
-      <img src="./assets/plus.svg" alt="ícone sinal de +">
-      <div>
-        Registrar o meu dia
-      </div>
-    </button>
-    <!-- <button id="returnMain">
-          <img src="./assets/plus.svg" alt="ícone sinal de +">
-          <div>
-            Retornar ao menu
+    <div class="header-top">
+      <button id="plusDay">
+        <img src="./assets/plus.svg" alt="ícone sinal de +">
+        <div>
+          Registrar o meu dia
+        </div>
+      </button>
+      <button id="returnMain">
+        <img src="./assets/return.svg" alt="Seta para a esquerda <- ou voltar."> <!-- class="arrow-return" -->
+        <div>
+          Voltar
           </div>
-        </button> -->
+      </button>
+      </div>
   </header>
   <form id="form-habits">
     <div class="habits">
@@ -62,9 +64,9 @@
 
   </footer>
   <script src="https://cdn.jsdelivr.net/gh/maykbrito/libs/NLWSetup/source/NLWSetup.js"></script>
+
   <script src="https://kit.fontawesome.com/b83066dc1c.js" crossorigin="anonymous"></script>
   <script src="./src/index.js"></script>
-  <script src="./src/alert.js"></script>
 </body>
 
 </html>
