@@ -27,11 +27,12 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 30px;
+  gap: 15px;
 }
 
 /* Perfil do Usuário */
 .perfil-image-container {
+  margin-top: 5px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -114,4 +115,36 @@ body {
 .button-icons-social:hover{
   background: #5400a9;
   cursor: pointer;
+}
+
+/* Button Return Main */
+
+.return-link-address {
+  width: 150px;
+  height: 49px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background: transparent;
+  border: 2px solid var(--purple);
+  border-radius: 4px;
+  gap: 20px;
+
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: var(--purple);
+  transition: border 0.4s;
+}
+
+.return-link-address:hover {
+  border: 2px solid var(--purple-bold);
+  color: var(--purple-bold);
+  cursor: pointer;
+}
+
+.return-button{
+  display: flex;
 }
