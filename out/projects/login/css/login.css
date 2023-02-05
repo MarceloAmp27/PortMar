@@ -69,7 +69,8 @@ body::-webkit-scrollbar-thumb {
     justify-content: center;
     align-items: center;
     width: 100%;
-    gap: 30px;
+    gap: 26px;
+    margin-bottom: 8px
 }
 
 .inputBox{
@@ -182,6 +183,27 @@ form [type="submit"]{
 }
 
 form [type="submit"]:hover{
+    background-color: #00e1ff;
+    border: #141518;
+    color: #141518;
+    cursor: pointer;
+}
+
+#btnMain{
+    display: block;
+    width: 300px;
+    height: 50px;
+    background-color: #2c2e33;
+    color: #d7dceb;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-radius: 50px;
+    cursor: default;
+    transition: background 0.4s;
+}
+
+#btnMain:hover{
     background-color: #00e1ff;
     border: #141518;
     color: #141518;

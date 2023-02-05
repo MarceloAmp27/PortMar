@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
@@ -11,7 +11,7 @@
     <title>Login - PortMar</title>
 </head>
 
-<body onload="pageLoaded()">
+<body onload="loadPage()">
     <section class="login-area">
         <div class="login">
             <div class="login-icon">
@@ -20,19 +20,20 @@
             </div>
             <form method="POST">
                 <div class="inputBox">
-                    <input type="email" name="eml" id="eml" autofocus required>
+                    <input type="email" name="eml" id="eml" autofocus>
                     <label>E-mail</label>
                 </div>
                 <div class="inputBox">
-                    <input type="password" name="pswd" id="pswd" required>
+                    <input type="password" name="pswd" id="pswd">
                     <label>Password</label>
                     <span id="eyeBtn"></span>
                 </div>
                 <div class="messageCheck">
                     <p id="messageText"></p>
                 </div>
-                <input type="submit" value="Login" onclick="lgn();">
+                <input id="lgnToUser" type="submit" value="Login" onclick="lgn(); return false">
             </form>
+            <button id="btnMain" onclick="backMain()">Voltar</button>
             <p class="signup-paragrafo">Seu Primeiro Acesso?</p>
             <a href="../signup/sign-up.html" class="link-signup">Crie uma conta!</a>
             <!--colocar no código acima: id="signUp" onclick="createAccount()"-->

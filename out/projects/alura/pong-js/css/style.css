@@ -1,0 +1,82 @@
+html, body {
+  border: 0;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: rgb(145 145 145);
+  color: rgb(245, 243, 243);
+}
+
+/* Header */
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  padding: 48px;
+  background-color: #04011a;
+}
+
+.title{
+  font-size: 24px;
+}
+
+#returnMain {
+  padding: 16px 34px;
+  border-radius: 8px;
+  border: 1px solid #8b5cf6;
+  background-color: transparent;
+  color: rgba(255, 255, 255, 0.555);
+
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  cursor: pointer;
+
+  font-family: "Inter";
+  font-weight: 600px;
+  font-size: 16px;
+  line-height: 125%;
+  transition: all 0.4s;
+}
+
+#returnMain:hover{
+  border: 1px solid #f55d5d;
+  color: rgb(255, 255, 255);
+}
+
+.projeto-container{
+  height: 80vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.game-projeto-container{
+  width: 25%;
+  background: #00041a;
+  border-radius: 0px 50px 50px 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.game-container{
+  width: 65%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main{
+  width: 100%;
+  display: block;
+}
+
+canvas {
+  height: 0;
+  width: 100%;
+  display: block;
+}

@@ -10,20 +10,20 @@
   <title>Portfolio - Marcelo A.M. Paixão</title>
 </head>
 
-<body> <!-- onload="alertMsg()" -->
+<body id="menu"> <!-- onload="alertMsg()" -->
   <div id="loadPages"></div>
+  
   <nav id="menu-h">
-    <ul class="menu-ul">
+    <ul id="menu-ul" class="menu-ul">
       <h1 class="menu-title">Digital PortMar</h1>
       <li><a href="#menu">Home</a></li>
       <li><a href="#sobre">Sobre</a></li>
       <li><a href="#projeto">Projetos</a></li>
       <li><a href="#social">Social</a></li>
       <li><a href="#newsletter">Newsletter</a></li>
-      <li><a href="./projects/login/login.html">Login</a></li>
-      <li><a href="./projects/signup/sign-up.html">Sign-up</a></li>
     </ul>
   </nav>
+
   <section class="container-about-principal" id="sobre">
     <div class="container-about">
       <div class="container-about-top">
@@ -35,6 +35,7 @@
       </div>
     </div>
   </section>
+
   <section class="container-projeto-principal" id="projeto">
     <div class="container-projeto">
       <div class="container-projeto-1">
@@ -45,25 +46,31 @@
       <div class="container-projeto-2">
         <p class="project-paragrafo">2# Projeto: Login with JS</p>
         <!-- <img src="images/login-page.PNG" alt="Imagem Página de Login"> -->
-        <button class="button-style" id="login-page" onclick="page2()">PortMar Login</button>
+        <button class="button-style" onclick="page2()">PortMar Login</button>
       </div>
       <div class="container-projeto-3">
         <p class="project-paragrafo">3# Projeto: Sign-Up with JS and Verification Password</p>
         <!-- <img src="images/signup-page.PNG" alt="Imagem Página de Login"> -->
-        <button class="button-style" id="signup-page" onclick="page3()">PortMar Sign-up</button>
+        <button class="button-style" onclick="page3()">PortMar Sign-up</button>
       </div>
       <div class="container-projeto-4">
         <p class="project-paragrafo">4# Projeto: Gerencie seus Habitos</p>
         <!-- <img src="images/signup-page.PNG" alt="Imagem Página de Login"> -->
-        <button class="button-style" id="signup-page" onclick="page4()">PortMar Habits</button>
+        <button class="button-style" onclick="page4()">PortMar Habits</button>
       </div>
       <div class="container-projeto-5">
         <p class="project-paragrafo">5# Projeto: Social Links</p>
         <!-- <img src="images/signup-page.PNG" alt="Imagem Página de Login"> -->
-        <button class="button-style" id="signup-page" onclick="page5()">PortMar Social Links</button>
+        <button class="button-style" onclick="page5()">PortMar Social Links</button>
+        </div>
+        <div class="container-projeto-6">
+          <p class="project-paragrafo">6# Projeto: Pong With JavaScript</p>
+          <!-- <img src="images/signup-page.PNG" alt="Imagem Página de Login"> -->
+          <button class="button-style" onclick="page6()">PortMar Pong Game</button>
       </div>
     </div>
   </section>
+
   <section class="container-social-principal" id="social">
     <div class="container-social-secundario">
       <h2>Social</h2>
@@ -72,6 +79,7 @@
       </div>
     </div>
   </section>
+
   <section class="container-newsletter-principal" id="newsletter">
     <div class="container-newsletter-image">
       <a href="https://storyset.com/technology" target="_blank"><img src="./img/digital-lifestyle.png"
@@ -92,6 +100,7 @@
       </form>
     </div>
   </section>
+
   <footer id="footer-general">
     <div class="social-info">
       <div class="icons-info">
@@ -110,6 +119,7 @@
       <p>PortMar© Copyright by Marcelo Augusto || 01/2023</p>
     </div>
   </footer>
+
   <script src="https://kit.fontawesome.com/b83066dc1c.js" crossorigin="anonymous"></script>
   <script src="./js/home.js"></script>
   <script src="./src/index.js"></script>

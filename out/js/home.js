@@ -19,7 +19,7 @@ function page1() {
         "https://drive.google.com/drive/folders/1atbr6iSrX7eJs4LR5mz4fE1p_EJgfQPM",
         "_blank"
       );
-    }, 3000);
+    }, 2800);
   }
 }
 
@@ -28,8 +28,7 @@ function page2() {
     showLoading();
     setTimeout(function () {
       window.location.href = "./projects/login/login.html";
-      s;
-    }, 3000);
+    }, 2800);
   }
 }
 
@@ -38,7 +37,7 @@ function page3() {
     showLoading();
     setTimeout(function () {
       window.location.href = "./projects/signup/sign-up.html";
-    }, 3000);
+    }, 2800);
   }
 }
 
@@ -47,7 +46,7 @@ function page4() {
     showLoading();
     setTimeout(function () {
       window.location.href = "./projects/rocketseat/habits/index.html";
-    }, 3000);
+    }, 2800);
   }
 }
 
@@ -56,11 +55,22 @@ function page5() {
     showLoading();
     setTimeout(function () {
       window.location.href = "./projects/rocketseat/social-tree/index.html";
-    }, 3000);
+    }, 2800);
+  }
+}
+
+function page6() {
+  if (!onclick) {
+    showLoading();
+    setTimeout(function () {
+      window.location.href = "./projects/alura/pong-js/index.html";
+    }, 2800);
   }
 }
 
 function showLoading() {
+  const bodyPage = document.body;
+  const ulPage = document.getElementById("menu-ul");
   const divMain = document.getElementById("loadPages");
 
   const divLoader = document.createElement("div");
@@ -77,12 +87,22 @@ function showLoading() {
   divLoader.appendChild(divLoad);
   divLoader.appendChild(h1);
 
+  ulPage.style.position = "unset";
+  bodyPage.style.overflow = "hidden";
+
   setTimeout(() => hideLoading(), 3000);
 }
 
 function hideLoading() {
+  const ulPage = document.getElementById("menu-ul");
+  const bodyPage = document.body;
+  ulPage.style.position = "fixed";
+  bodyPage.style.overflow = "visible";
+
   const loadings = document.getElementsByClassName("loader");
   if (loadings.length) {
     loadings[0].remove();
+  } else {
+    return;
   }
 }
