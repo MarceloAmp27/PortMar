@@ -1,6 +1,6 @@
 @media (max-width: 600px) {
   .container-about-principal {
-    height: 90vw;
+    height: 55vh;
   }
 
   .container-about {
@@ -11,21 +11,27 @@
     width: 20%;
   }
 
-  .container-projeto-principal {
-    margin-top: 275px;
+  .paragrafo-about{
+    width: 92%;
+    margin-bottom: 4px;
+    font-size: clamp(1em, 1em + 4px, 1.5em);
   }
+
+  /* .container-projeto-principal {
+    margin-top: 275px;
+  } */
 
   .container-projeto {
     width: 90%;
   }
 
-  .container-social-principal {
+  /* .container-social-principal {
     margin-top: 270px;
-  }
+  } */
 
   .container-newsletter-principal {
     background: none;
-    height: 65vw;
+    height: 55vh;
     margin-top: 30px;
   }
 
@@ -35,6 +41,7 @@
 
   .container-newsletter-secundario {
     width: 90%;
+    border-radius: 50px;
   }
 
   .newsletter-title {
@@ -51,7 +58,7 @@
 
   #footer-general {
     flex-direction: column;
-    height: 36vh;
+    height: 40vh;
     padding: 15px;
     gap: 12%;
   }
@@ -68,6 +75,8 @@
     font-size: 10px;
   }
 }
+
+/* Tamanho de Largura Máxima 380 pixels */
 
 @media (max-width: 380px) {
     .container-about-principal {
@@ -86,22 +95,23 @@
     width: 20%;
   }
 
-  .container-projeto-principal {
-    margin-top: 80vw;
+  .paragrafo-about{
+    width: 92%;
+    margin-bottom: 4px;
+    font-size: clamp(1em, 1em + 4px, 1.5em);
   }
 
   .container-projeto {
     width: 90%;
   }
 
-  .container-social-principal {
+  /* .container-social-principal {
     margin-top: 75vw;
-  }
+  } */
 
   .container-newsletter-principal {
     background: none;
-    height: 85vw;
-    margin-top: 5vw;
+    height: 85vh;
   }
 
   .container-newsletter-image {
@@ -109,7 +119,7 @@
   }
 
   .container-newsletter-secundario {
-    width: 100%;
+    width: 90%;
   }
 
   .newsletter-title {
@@ -126,9 +136,9 @@
 
   #footer-general {
     flex-direction: column;
-    height: 36vh;
+    height: 40vh;
     padding: 15px;
-    gap: 12%;
+    gap: 15%;
   }
 
   .rodape-info {

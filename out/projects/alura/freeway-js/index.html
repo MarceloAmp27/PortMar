@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,600;1,300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="./css/style.css">
+  <link rel="stylesheet" type="text/css" href="./css/responsive.css">
+  <meta charset="utf-8" />
+
+</head>
+
+<body>
+  <header>
+    <h1 class="title">Freeway Atari with JavaScript</h1>
+    <button id="returnMain">
+      <img src="./assets/return.svg" alt="Seta para a esquerda <- ou voltar.">
+      <div>
+        Voltar
+      </div>
+    </button>
+  </header>
+  <section class="projeto-container">
+    <div class="game-projeto-container">
+      <h1>Instruções:</h1>
+      <p class="instrucoes">Aperte W para Cima</p>
+      <p class="instrucoes">Aperte S para Baixo</p>
+      <p class="instrucoes">Aperte A para Esquerda</p>
+      <p class="instrucoes">Aperte D para Direita</p>
+    </div>
+    <div class="game-container">
+      <main>
+      </main>
+    </div>
+  </section>
+
+  <footer id="footer-general">
+    <div class="social-info">
+      <div class="icons-info">
+        <a href="https://www.linkedin.com/in/marceloamp-04/" target="_blank"
+          class="icon-link fa-brands fa-linkedin"></a>
+        <a href="https://github.com/MarceloAmp27" target="_blank" class="icon-link fa-brands fa-github"></a>
+        <a href="https://www.instagram.com/marceloamp_ofc/" target="_blank"
+          class="icon-link fa-brands fa-instagram"></a>
+      </div>
+      <div class="icons-info">
+        <a href="tel:+5511988024979" class="icon-link fa-sharp fa-solid fa-mobile"></a>
+        <a href="mailto:marceloamellopaixao@gmail.com" class="icon-link fa-solid fa-inbox"></a>
+        <a href="https://wa.me/5511988024979" target="_blank" class="icon-link fa-brands fa-whatsapp"></a>
+      </div>
+    </div>
+    <div class="rodape-info">
+      <h1>PortMar - Portfólio Digital</h1>
+      <p>PortMar© Copyright by Marcelo Augusto || 01/2023</p>
+    </div>
+  </footer>
+
+  <!-- Principal Code in JS -->
+  <script src="./src/sketch.js"></script>
+  <!-- Content in JS -->
+  <script src="./js/car.js"></script>
+  <script src="./js/images.js"></script>
+  <script src="./js/player.js"></script>
+  <script src="./js/end.js"></script>
+  <!-- Difficulty in JS -->
+  <script src="./js/difficult.js"></script>
+  <!-- Libraries in JS -->
+  <script src="./libraries/p5.js"></script>
+  <script src="./libraries/p5.collide2d.js"></script>
+  <script src="./libraries/p5.sound.min.js"></script>
+  <script src="https://kit.fontawesome.com/b83066dc1c.js" crossorigin="anonymous"></script>
+  <!-- Back to Main -->
+  <script src="./src/index.js"></script>
+
+</body>
+
+</html>

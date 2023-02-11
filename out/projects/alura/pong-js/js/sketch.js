@@ -76,6 +76,7 @@ function draw() {
   // DESENVOLVENDO.
 
   // Resolução de Bugs
+  limitRacket();
   ballCantBeStuck();
 }
 
@@ -215,6 +216,19 @@ function pointerInsert() {
 }
 
 // Resolução de Bugs
+
+// As raquetes não podem passar as bordas
+function limitRacket() {
+  if (yRacket < 0) {
+    yRacket = 0;
+  } else if (yRacket > 400 - hRacket) {
+    yRacket = 400 - hRacket;
+  } else if (yRacketOp < 0) {
+    yRacketOp = 0;
+  } else if (yRacketOp > 400 - hRacket) {
+    yRacketOp = 400 - hRacket;
+  }
+}
 
 // Bolinha presa nos cantos laterais
 function ballCantBeStuck() {
