@@ -1,10 +1,10 @@
-html, body {
-  border: 0;
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  background-color: rgb(145 145 145);
-  color: rgb(245, 243, 243);
+body{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    background: #031e55;
+    color: #ebebeb;
 }
 
 /*Scroll Bar*/
@@ -14,15 +14,15 @@ body::-webkit-scrollbar {
 }
 
 body::-webkit-scrollbar-track {
-      border-radius: 3px; 
+  border-radius: 3px;
 
-  background: rgb(255, 255, 255);  
+  background: rgb(255, 255, 255);
 }
 
 body::-webkit-scrollbar-thumb {
   background-color: rgb(3, 3, 43);
-  border-radius: 40px; 
-  border: 2px solid rgb(255, 255, 255); 
+  border-radius: 40px;
+  border: 2px solid rgb(255, 255, 255);
 }
 
 /* Header */
@@ -63,49 +63,71 @@ header {
   color: rgb(255, 255, 255);
 }
 
-.projeto-container{
-  height: 70vh;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: flex-start;
-  gap: 10%;
-}
-
-.game-projeto-container{
-  width: 20%;
-  background: #00041a;
-  border-radius: 0 50px 50px 0;
+/*Section Projects*/
+.container-projeto-principal {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 15px;
+  width: 100%;
+  margin-top: 40px;
 }
 
-.game-container{
+.container-projeto {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
+  background: #0066bf;
+  width: 95%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 5px 5px 50px rgb(0 7 18);
 }
 
-.instrucoes{
-  margin: 10px
+.title-projects{
+  margin: 20px 0px 25px 0px;
+  font-size: 32px;
 }
 
-main{
-  display: block;
+.project-paragrafo {
+  color: #e5f3ff;
+  font-size: 20px;
+  padding: 10px;
 }
 
-canvas {
-  display: block;
+.content-projects {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
 }
 
+/* Button Projects */
+
+.button-style {
+  background-color: rgb(207, 203, 203);
+  border-radius: 50px;
+  width: 200px;
+  height: 50px;
+  font-size: 20px;
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 400;
+  transition: all 0.4s;
+}
+
+.button-style:hover {
+  background-color: rgb(7, 5, 105);
+  color: white;
+  cursor: pointer;
+}
 
 /* Footer */
-
 #footer-general {
-  height: 20vh;
+  height: 25vh;
   background-color: #04011a;
   color: rgb(247, 243, 235);
   display: flex;
@@ -114,6 +136,7 @@ canvas {
   align-items: center;
   padding: 30px;
   gap: 30%;
+  margin-top: 40px;
 }
 
 .social-info {
@@ -123,7 +146,7 @@ canvas {
   gap: 50px;
 }
 
-.icons-info{
+.icons-info {
   text-decoration: none;
   color: #a1a1aa;
   display: flex;
@@ -144,7 +167,7 @@ canvas {
 }
 
 .icon-link:hover {
-    color: azure;
+  color: azure;
 }
 
 .rodape-info {

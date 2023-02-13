@@ -1,0 +1,61 @@
+@media (max-width: 600px) {
+
+  /* .container-projeto-principal {
+    margin-top: 275px;
+  } */
+
+  .container-projeto {
+    width: 90%;
+  }
+
+  #footer-general {
+    flex-direction: column;
+    height: 40vh;
+    padding: 15px;
+    gap: 12%;
+  }
+
+  .rodape-info {
+    align-items: center;
+  }
+
+  .rodape-info h1 {
+    font-size: 16px;
+  }
+
+  .rodape-info p {
+    font-size: 10px;
+  }
+}
+
+/* Tamanho de Largura Máxima 380 pixels */
+
+@media (max-width: 380px) {
+
+  .container-projeto {
+    width: 90%;
+  }
+
+  /* .container-social-principal {
+    margin-top: 75vw;
+  } */
+
+  #footer-general {
+    flex-direction: column;
+    height: 40vh;
+    padding: 15px;
+    gap: 15%;
+  }
+
+  .rodape-info {
+    align-items: center;
+  }
+
+  .rodape-info h1 {
+    font-size: 16px;
+  }
+
+  .rodape-info p {
+    font-size: 10px;
+  }
+}

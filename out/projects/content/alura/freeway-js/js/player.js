@@ -17,13 +17,13 @@ function showPlayer() {
 }
 
 function movPlayer() {
-  if (keyIsDown(87)) {
+  if (keyIsDown(87) || keyIsDown(UP_ARROW)) {
     yPlayer -= 3;
-  } else if (keyIsDown(83)) {
+  } else if (keyIsDown(83) || keyIsDown(DOWN_ARROW)) {
     yPlayer += 3;
-  } else if (keyIsDown(65)) {
+  } else if (keyIsDown(65) || keyIsDown(LEFT_ARROW)) {
     xPlayer -= 3;
-  } else if (keyIsDown(68)) {
+  } else if (keyIsDown(68) || keyIsDown(RIGHT_ARROW)) {
     xPlayer += 3;
   } else {
     return;
