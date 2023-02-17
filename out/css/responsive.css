@@ -1,6 +1,6 @@
 @media (max-width: 600px) {
   .container-about-principal {
-    height: 55vh;
+    height: 50vh;
   }
 
   .container-about {
@@ -11,28 +11,39 @@
     width: 20%;
   }
 
+  .title-about{
+    font-size: clamp(26px, 1em + 1px, 1.5em);
+  }
+
   .paragrafo-about{
     width: 92%;
     margin-bottom: 4px;
-    font-size: clamp(1em, 1em + 4px, 1.5em);
+    font-size: clamp(1em, 1em + 1px, 1.5em);
   }
 
-  /* .container-projeto-principal {
-    margin-top: 275px;
-  } */
+  .container-projeto-principal {
+    height: 75vh;
+    margin-top: 60px;
+  }
 
   .container-projeto {
     width: 90%;
   }
 
-  /* .container-social-principal {
-    margin-top: 270px;
-  } */
+  .container-social-principal {
+    height: 30vh;
+    margin-top: 75px;
+  }
+
+  .container-social-secundario{
+    width: 90%;
+    height: 90vh;
+  }
 
   .container-newsletter-principal {
     background: none;
-    height: 55vh;
-    margin-top: 30px;
+    height: 40vh;
+    margin-top: 20px;
   }
 
   .container-newsletter-image {
@@ -45,11 +56,11 @@
   }
 
   .newsletter-title {
-    font-size: 28px;
+    font-size: 24px;
   }
 
   .newsletter-paragrafo {
-    font-size: 16px;
+    font-size: 14px;
   }
 
   .newsletter-input {
@@ -80,7 +91,7 @@
 
 @media (max-width: 380px) {
     .container-about-principal {
-    height: 100vw;
+    height: 60vh;
   }
 
   .container-about {
@@ -95,10 +106,14 @@
     width: 20%;
   }
 
+  .title-about{
+    font-size: clamp(26px, 1em + 1px, 1.5em);
+  }
+
   .paragrafo-about{
     width: 92%;
     margin-bottom: 4px;
-    font-size: clamp(1em, 1em + 4px, 1.5em);
+    font-size: clamp(1em, 1em + 1px, 1.5em);
   }
 
   .container-projeto {
@@ -111,7 +126,7 @@
 
   .container-newsletter-principal {
     background: none;
-    height: 85vh;
+    height: 50vh;
   }
 
   .container-newsletter-image {
@@ -123,20 +138,20 @@
   }
 
   .newsletter-title {
-    font-size: 28px;
+    font-size: 24px;
   }
 
   .newsletter-paragrafo {
-    font-size: 16px;
+    font-size: 14px;
   }
 
   .newsletter-input {
-    width: 60%;
+    width: 70%;
   }
 
   #footer-general {
     flex-direction: column;
-    height: 40vh;
+    height: 50vh;
     padding: 15px;
     gap: 15%;
   }
