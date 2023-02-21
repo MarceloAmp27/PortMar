@@ -72,3 +72,4 @@ database.rules.json
 firebase.json
 package.json
 package-lock.json
+remoteconfig.template.json

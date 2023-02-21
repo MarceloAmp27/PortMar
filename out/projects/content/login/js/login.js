@@ -88,19 +88,9 @@ eyeBtn.onclick = function () {
 
 function backMain() {
   if (!onclick) {
-    alert("Você está sendo direcionado de volta ao Menu");
+    alert("Você está sendo direcionado de volta a pagina anterior.");
     window.location.href = local;
   } else {
     return;
   }
 }
-
-// function createAccount() {} // FAZER MELHORIA NESSA VALIDAÇÃO.
-// let create = document.getElementById("signUp");
-
-// if (create == true) {
-//  alert("Conectando-se á página de Cadastro");
-// } else {
-//  alert("Tente novamente ou recarregue a página.");
-//  window.location.reload(true);
-// }

@@ -11,10 +11,11 @@
 </head>
 
 <body>
-    <header>
+    <div id="loadPages"></div>
+    <header id="menu-h">
         <h1 class="title">Digital PortMar</h1>
         <button id="returnMain">
-            <img src="./assets/return.svg" alt="Seta para a esquerda <- ou voltar.">
+            <img src="./assets/return.svg" alt="Ilustração de imagem voltar">
             <div>
                 Voltar
             </div>
@@ -24,7 +25,7 @@
         <div class="container-projeto">
             <h2 class="title-projects">Meus Projetos</h2>
             <div class="content-projects">
-                <p class="project-paragrafo">1# Projeto: Python</p>
+                <p class="project-paragrafo">1# Projeto: Sistema Escolar em Python</p>
                 <img src="" alt="">
                 <button class="button-style" onclick="page1()">System School</button>
             </div>
@@ -41,12 +42,16 @@
                 <button class="button-style" onclick="page4()">PortMar Habits</button>
             </div>
             <div class="content-projects">
-                <p class="project-paragrafo">5# Projeto: Pong com JavaScript</p>
-                <button class="button-style" onclick="page5()">Pong Atari</button>
+                <p class="project-paragrafo">5# Projeto: Social Midia</p>
+                <button class="button-style" onclick="page5()">Social-Tree</button>
             </div>
             <div class="content-projects">
-                <p class="project-paragrafo">6# Projeto: Freeway com JavaScript</p>
-                <button class="button-style" onclick="page6()">Freeway Atari</button>
+                <p class="project-paragrafo">6# Projeto: Pong com JavaScript</p>
+                <button class="button-style" onclick="page6()">Pong Atari</button>
+            </div>
+            <div class="content-projects">
+                <p class="project-paragrafo">7# Projeto: Freeway com JavaScript</p>
+                <button class="button-style" onclick="page7()">Freeway Atari</button>
             </div>
         </div>
     </section>
@@ -67,12 +72,13 @@
             </div>
         </div>
         <div class="rodape-info">
-            <h1>PortMar - Portfólio Digital</h1>
-            <p>PortMar© Copyright by Marcelo Augusto || 01/2023</p>
+            <h1 class="rodape-info-title">PortMar - Portfólio Digital</h1>
+            <p class="rodape-info-paragrafo">PortMar© Copyright by Marcelo Augusto || 01/2023</p>
         </div>
     </footer>
 
-    <script src="./js/index.js"></script>
+    <script src="./js/back.js"></script>
+    <script src="./src/index.js"></script>
     <script src="https://kit.fontawesome.com/b83066dc1c.js" crossorigin="anonymous"></script>
 
 </body>

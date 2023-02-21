@@ -1,6 +1,102 @@
+@media (max-width: 950px) {
+
+  .container-about-principal{
+    margin-top: 20vh;
+  }
+
+  .container-about {
+    width: 90%;
+  }
+
+  .image-about {
+    width: 20%;
+  }
+
+  .title-about{
+    font-size: 32px;
+  }
+
+  .paragrafo-about{
+    width: 90%;
+    margin-bottom: 4px;
+    font-size: 21px;
+  }
+
+  .container-projeto-principal{
+    margin-top: 5vh;
+  }
+
+  .container-projeto {
+    width: 90%;
+  }
+
+  .container-social-principal {
+    height: 30vh;
+    margin-top: 5vh;
+  }
+
+  .container-social-secundario{
+    width: 90%;
+    height: 90vh;
+  }
+
+  .container-newsletter-principal {
+    background: none;
+    height: 40vh;
+    margin-top: 5vh;
+  }
+
+  .container-newsletter-image {
+    display: none;
+  }
+
+  .container-newsletter-secundario {
+    width: 90%;
+    border-radius: 50px;
+  }
+
+  .newsletter-title {
+    font-size: 42px;
+  }
+
+  .newsletter-paragrafo {
+    font-size: 24px;
+  }
+
+  .newsletter-input {
+    width: 60%;
+  }
+
+  #footer-general {
+    flex-direction: column;
+    height: 60vh;
+    padding: 15px;
+    gap: 12%;
+  }
+
+  .rodape-info {
+    align-items: center;
+  }
+
+  .icon-link{
+    font-size: 28px;
+  }
+
+  .rodape-info-title {
+    font-size: 26px;
+  }
+
+  .rodape-info-paragrafo {
+    font-size: 21px;
+  }
+}
+
+/* Tamanho de Largura Máxima 600 pixels */
+
 @media (max-width: 600px) {
-  .container-about-principal {
-    height: 50vh;
+
+  .container-about-principal{
+    margin-top: 20vh;
   }
 
   .container-about {
@@ -21,18 +117,18 @@
     font-size: clamp(1em, 1em + 1px, 1.5em);
   }
 
-  .container-projeto-principal {
-    height: 75vh;
-    margin-top: 60px;
+  .container-projeto-principal{
+    margin-top: 5vh;
   }
 
   .container-projeto {
     width: 90%;
+    height: 90vh;
   }
 
   .container-social-principal {
     height: 30vh;
-    margin-top: 75px;
+    margin-top: 5vh;
   }
 
   .container-social-secundario{
@@ -42,8 +138,8 @@
 
   .container-newsletter-principal {
     background: none;
-    height: 40vh;
-    margin-top: 20px;
+    height: 45vh;
+    margin-top: 5vh;
   }
 
   .container-newsletter-image {
@@ -56,11 +152,11 @@
   }
 
   .newsletter-title {
-    font-size: 24px;
+    font-size: 28px;
   }
 
   .newsletter-paragrafo {
-    font-size: 14px;
+    font-size: 16px;
   }
 
   .newsletter-input {
@@ -69,7 +165,7 @@
 
   #footer-general {
     flex-direction: column;
-    height: 40vh;
+    height: 45vh;
     padding: 15px;
     gap: 12%;
   }
@@ -78,11 +174,15 @@
     align-items: center;
   }
 
-  .rodape-info h1 {
+  .icon-link{
+    font-size: 24px;
+  }
+  
+  .rodape-info-title {
     font-size: 16px;
   }
 
-  .rodape-info p {
+  .rodape-info-paragrafo {
     font-size: 10px;
   }
 }
@@ -91,7 +191,8 @@
 
 @media (max-width: 380px) {
     .container-about-principal {
-    height: 60vh;
+      margin-top: 20vh;
+    height: 50vh;
   }
 
   .container-about {
@@ -107,7 +208,7 @@
   }
 
   .title-about{
-    font-size: clamp(26px, 1em + 1px, 1.5em);
+    font-size: clamp(21px, 1em + 1px, 1.5em);
   }
 
   .paragrafo-about{
@@ -118,11 +219,8 @@
 
   .container-projeto {
     width: 90%;
+    height: 95vh;
   }
-
-  /* .container-social-principal {
-    margin-top: 75vw;
-  } */
 
   .container-newsletter-principal {
     background: none;
@@ -138,11 +236,11 @@
   }
 
   .newsletter-title {
-    font-size: 24px;
+    font-size: 21px;
   }
 
   .newsletter-paragrafo {
-    font-size: 14px;
+    font-size: 12px;
   }
 
   .newsletter-input {
@@ -160,11 +258,15 @@
     align-items: center;
   }
 
-  .rodape-info h1 {
+  .icon-link{
+    font-size: 21px;
+  }
+
+  .rodape-info-title {
     font-size: 16px;
   }
 
-  .rodape-info p {
+  .rodape-info-paragrafo {
     font-size: 10px;
   }
 }

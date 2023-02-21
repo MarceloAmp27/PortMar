@@ -3,7 +3,7 @@ function page1() {
     showLoading();
     setTimeout(function () {
       window.open(
-        "https://drive.google.com/drive/folders/1atbr6iSrX7eJs4LR5mz4fE1p_EJgfQPM",
+        "https://github.com/marceloamellopaixao/SystemSchool",
         "_blank"
       );
     }, 2800);
