@@ -1,7 +1,8 @@
-@media (max-width: 950px) {
+@media (max-width: 1280px) {
 
-  .container-about-principal{
-    margin-top: 20vh;
+  .container-about-principal {
+    margin-top: 22vh;
+    height: 65vh;
   }
 
   .container-about {
@@ -9,25 +10,26 @@
   }
 
   .image-about {
-    width: 20%;
+    width: 12vw;
   }
 
-  .title-about{
-    font-size: 32px;
+  .title-about {
+    font-size: 22px;
   }
 
-  .paragrafo-about{
+  .paragrafo-about {
     width: 90%;
     margin-bottom: 4px;
-    font-size: 21px;
+    font-size: 18px;
   }
 
-  .container-projeto-principal{
+  .container-projeto-principal {
     margin-top: 5vh;
   }
 
   .container-projeto {
     width: 90%;
+    height: 100vh;
   }
 
   .container-social-principal {
@@ -35,36 +37,13 @@
     margin-top: 5vh;
   }
 
-  .container-social-secundario{
+  .container-social-secundario {
     width: 90%;
     height: 90vh;
   }
 
-  .container-newsletter-principal {
-    background: none;
-    height: 40vh;
-    margin-top: 5vh;
-  }
-
-  .container-newsletter-image {
-    display: none;
-  }
-
   .container-newsletter-secundario {
     width: 90%;
-    border-radius: 50px;
-  }
-
-  .newsletter-title {
-    font-size: 42px;
-  }
-
-  .newsletter-paragrafo {
-    font-size: 24px;
-  }
-
-  .newsletter-input {
-    width: 60%;
   }
 
   #footer-general {
@@ -78,7 +57,7 @@
     align-items: center;
   }
 
-  .icon-link{
+  .icon-link {
     font-size: 28px;
   }
 
@@ -91,12 +70,11 @@
   }
 }
 
-/* Tamanho de Largura Máxima 600 pixels */
+@media (max-width: 950px) {
 
-@media (max-width: 600px) {
-
-  .container-about-principal{
-    margin-top: 20vh;
+  .container-about-principal {
+    margin-top: 22vh;
+    height: 60vh;
   }
 
   .container-about {
@@ -104,26 +82,26 @@
   }
 
   .image-about {
-    width: 20%;
+    width: 16vw;
   }
 
-  .title-about{
-    font-size: clamp(26px, 1em + 1px, 1.5em);
+  .title-about {
+    font-size: 22px;
   }
 
-  .paragrafo-about{
-    width: 92%;
+  .paragrafo-about {
+    width: 90%;
     margin-bottom: 4px;
-    font-size: clamp(1em, 1em + 1px, 1.5em);
+    font-size: 18px;
   }
 
-  .container-projeto-principal{
+  .container-projeto-principal {
     margin-top: 5vh;
   }
 
   .container-projeto {
     width: 90%;
-    height: 90vh;
+    height: 100vh;
   }
 
   .container-social-principal {
@@ -131,7 +109,108 @@
     margin-top: 5vh;
   }
 
-  .container-social-secundario{
+  .container-social-secundario {
+    width: 90%;
+    height: 90vh;
+  }
+
+  .container-newsletter-principal {
+    background: none;
+    height: 70vh;
+  }
+
+  .container-newsletter-image {
+    display: none;
+  }
+
+  .container-newsletter-secundario {
+    width: 90%;
+    border-radius: 50px;
+  }
+
+  .newsletter-title {
+    font-size: 36px;
+  }
+
+  .newsletter-paragrafo {
+    font-size: 18px;
+  }
+
+  .newsletter-input {
+    width: 60%;
+  }
+
+  #footer-general {
+    flex-direction: column;
+    height: 60vh;
+    padding: 35px;
+    gap: 8vh;
+  }
+
+  .social-info {
+    gap: 10vw;
+  }
+
+  .rodape-info {
+    align-items: center;
+  }
+
+  .icon-link {
+    font-size: 24px;
+  }
+
+  .rodape-info-title {
+    font-size: 22px;
+  }
+
+  .rodape-info-paragrafo {
+    font-size: 16px;
+  }
+}
+
+/* Tamanho de Largura Máxima 600 pixels */
+
+@media (max-width: 600px) {
+
+  .container-about-principal {
+    margin-top: 22vh;
+    height: 60vh;
+  }
+
+  .container-about {
+    width: 90%;
+  }
+
+  .image-about {
+    width: 16vw;
+    margin: 10px 10px 20px 0;
+  }
+
+  .title-about {
+    font-size: clamp(26px, 1em + 1px, 1.5em);
+  }
+
+  .paragrafo-about {
+    width: 92%;
+    margin-bottom: 4px;
+    font-size: clamp(1em, 1em + 1px, 1.5em);
+  }
+
+  .container-projeto-principal {
+    margin-top: 5vh;
+  }
+
+  .container-projeto {
+    width: 90%;
+    height: 100vh;
+  }
+
+  .container-social-principal {
+    height: 30vh;
+    margin-top: 5vh;
+  }
+
+  .container-social-secundario {
     width: 90%;
     height: 90vh;
   }
@@ -165,33 +244,25 @@
 
   #footer-general {
     flex-direction: column;
-    height: 45vh;
-    padding: 15px;
-    gap: 12%;
+    height: 60vh;
+    padding: 35px;
+    gap: 8vh;
+  }
+
+  .social-info {
+    gap: 12vw;
   }
 
   .rodape-info {
     align-items: center;
-  }
-
-  .icon-link{
-    font-size: 24px;
-  }
-  
-  .rodape-info-title {
-    font-size: 16px;
-  }
-
-  .rodape-info-paragrafo {
-    font-size: 10px;
   }
 }
 
 /* Tamanho de Largura Máxima 380 pixels */
 
 @media (max-width: 380px) {
-    .container-about-principal {
-      margin-top: 20vh;
+  .container-about-principal {
+    margin-top: 20vh;
     height: 50vh;
   }
 
@@ -207,11 +278,11 @@
     width: 20%;
   }
 
-  .title-about{
+  .title-about {
     font-size: clamp(21px, 1em + 1px, 1.5em);
   }
 
-  .paragrafo-about{
+  .paragrafo-about {
     width: 92%;
     margin-bottom: 4px;
     font-size: clamp(1em, 1em + 1px, 1.5em);
@@ -219,7 +290,7 @@
 
   .container-projeto {
     width: 90%;
-    height: 95vh;
+    height: 100vh;
   }
 
   .container-newsletter-principal {
@@ -258,7 +329,7 @@
     align-items: center;
   }
 
-  .icon-link{
+  .icon-link {
     font-size: 21px;
   }
 

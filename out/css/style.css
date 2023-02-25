@@ -99,7 +99,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .image-about {
-  width: 20%;
+  width: 10vw;
   border-radius: 50%;
   margin: 10px 10px 30px 0;
 }
@@ -129,7 +129,7 @@ body::-webkit-scrollbar-thumb {
   justify-content: center;
   align-items: center;
   background: #0066bf;
-  width: 96%;
+  width: 95%;
   height: 85vh;
   border-radius: 10px;
   box-shadow: 5px 5px 50px rgb(0 7 18);
@@ -206,14 +206,16 @@ body::-webkit-scrollbar-thumb {
 
 /* Section Newsletter */
 .container-newsletter-principal {
+  background: #07145c;
+
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  margin-top: 5vh;
-  height: 55vh;
+  margin-top: 10vh;
+  
+  height: 70vh;
   width: 100%;
-  background: #07145c;
 }
 
 .container-newsletter-image {
@@ -249,7 +251,7 @@ body::-webkit-scrollbar-thumb {
   color: #e5f3ff;
   width: 70%;
   height: 100%;
-  border-radius: 5px;
+  border-radius: 50px 0 0 0;
 }
 
 .newsletter-form {
@@ -351,7 +353,7 @@ body::-webkit-scrollbar-thumb {
   display: flex;
   flex-direction: row;
   align-items: center;
-  gap: 50px;
+  gap: 4vw;
 }
 
 .icons-info {
@@ -361,7 +363,7 @@ body::-webkit-scrollbar-thumb {
   flex-direction: column;
   align-items: center;
   font-size: 28px;
-  gap: 30px;
+  gap: 4vh;
 }
 
 .icon-link {
@@ -382,20 +384,20 @@ body::-webkit-scrollbar-thumb {
 .rodape-info {
   display: flex;
   flex-direction: column;
-  gap: 40px;
+  gap: 6vh;
   font-family: "Roboto Mono";
   justify-content: flex-end;
   align-items: flex-end;
 }
 
 .rodape-info-title {
-  font-size: 24px;
+  font-size: 22px;
   color: #a1a1aa;
   transition: all 0.4s;
 }
 
 .rodape-info-paragrafo {
-  font-size: 14px;
+  font-size: 16px;
   color: #a1a1aa;
   transition: all 0.4s;
 }
@@ -407,8 +409,6 @@ body::-webkit-scrollbar-thumb {
 .rodape-info-paragrafo:hover {
   color: rgb(240, 255, 255);
 }
-
-
 
 /* LOADING PAGE */
 #loadPages {
