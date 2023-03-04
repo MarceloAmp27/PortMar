@@ -32,6 +32,10 @@
 
 @media (max-width: 380px) {
 
+  #returnMain div{
+    display: none;
+  }
+
   .container-projeto {
     width: 90%;
   }

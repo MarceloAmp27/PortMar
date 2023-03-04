@@ -32,7 +32,7 @@ header {
   justify-content: space-between;
 
   padding: 30px;
-  background-color: #04011a;
+  background-color: rgb(5, 13, 58);
 }
 
 .title{
@@ -134,7 +134,7 @@ header {
 /* Footer */
 #footer-general {
   height: 25vh;
-  background-color: #04011a;
+  background-color: rgb(5, 13, 58);
   color: rgb(247, 243, 235);
   display: flex;
   flex-direction: row;

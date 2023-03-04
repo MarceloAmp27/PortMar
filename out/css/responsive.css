@@ -261,6 +261,17 @@
 /* Tamanho de Largura Máxima 380 pixels */
 
 @media (max-width: 380px) {
+
+  /* #menu-h .menu-ul{
+    height: 100%;
+    flex-direction: column;
+  }
+
+  .menu-title{
+    margin-right: 0;
+    padding-left: 0;
+  } */
+
   .container-about-principal {
     margin-top: 20vh;
     height: 50vh;
