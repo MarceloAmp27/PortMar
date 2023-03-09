@@ -6,7 +6,7 @@ function page1() {
         "https://github.com/marceloamellopaixao/SystemSchool",
         "_blank"
       );
-    }, 2800);
+    }, 2500);
   }
 }
 
@@ -15,7 +15,7 @@ function page2() {
     showLoading();
     setTimeout(function () {
       window.location.href = "./projects/content/login/login.html";
-    }, 2800);
+    }, 2500);
   }
 }
 
@@ -24,7 +24,7 @@ function page3() {
     showLoading();
     setTimeout(function () {
       window.location.href = "./projects/content/signup/sign-up.html";
-    }, 2800);
+    }, 2500);
   }
 }
 
@@ -33,28 +33,28 @@ function page4() {
     showLoading();
     setTimeout(function () {
       window.location.href = "./projects/content/rocketseat/habits/index.html";
-    }, 2800);
+    }, 2500);
   }
 }
 
-function page5() {
-  if (!onclick) {
-    showLoading();
-    setTimeout(function () {
-      window.location.href =
-        "./projects/content/rocketseat/social-tree/index.html";
-    }, 2800);
-  }
-}
+// function page5() {
+//   if (!onclick) {
+//     showLoading();
+//     setTimeout(function () {
+//       window.location.href =
+//         "./projects/content/rocketseat/social-tree/index.html";
+//     }, 2800);
+//   }
+// }
 
-function page6() {
-  if (!onclick) {
-    showLoading();
-    setTimeout(function () {
-      window.location.href = "./projects/content/alura/pong-js/index.html";
-    }, 2800);
-  }
-}
+// function page6() {
+//   if (!onclick) {
+//     showLoading();
+//     setTimeout(function () {
+//       window.location.href = "./projects/content/alura/pong-js/index.html";
+//     }, 2800);
+//   }
+// }
 
 function seeMore() {
   if (!onclick) {
