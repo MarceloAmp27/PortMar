@@ -57,6 +57,13 @@ body::-webkit-scrollbar-thumb {
   color: rgb(255, 255, 255);
 }
 
+.menu-responsive {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  bottom: 60px;
+}
+
 #menu-h ul li a {
   display: flex;
   padding: 25px;
@@ -109,7 +116,8 @@ body::-webkit-scrollbar-thumb {
   color: #111111;
   margin-bottom: 5px;
 }
-.paragrafo-about{
+
+.paragrafo-about {
   font-size: 18px;
 }
 
@@ -135,7 +143,7 @@ body::-webkit-scrollbar-thumb {
   box-shadow: 5px 5px 50px rgb(0 7 18);
 }
 
-.title-projects{
+.title-projects {
   margin-bottom: 20px;
   font-size: 32px;
   color: #eff5fb;
@@ -213,7 +221,7 @@ body::-webkit-scrollbar-thumb {
   justify-content: center;
   align-items: center;
   margin-top: 10vh;
-  
+
   height: 70vh;
   width: 100%;
 }
@@ -444,6 +452,7 @@ body::-webkit-scrollbar-thumb {
   0% {
     transform: rotate(0deg);
   }
+
   100% {
     transform: rotate(360deg);
   }
@@ -458,13 +467,16 @@ body::-webkit-scrollbar-thumb {
 }
 
 @keyframes text-mov {
+
   0%,
   100% {
     transform: skew(-15deg);
   }
+
   50% {
     transform: skew(10deg);
   }
+
   100% {
     transform: skew(-15deg);
   }

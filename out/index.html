@@ -16,13 +16,17 @@
 
   <nav id="menu-h">
     <ul id="menu-ul" class="menu-ul">
-      <h1 class="menu-title">Digital PortMar</h1>
+      <div class="menu-responsive">
+        <h1 class="menu-title">Digital PortMar</h1>
+        <li><a href="#" class="fa-solid fa-bars"></a></li>
+      </div>
       <li><a href="#menu">Home</a></li>
       <li><a href="#sobre">Sobre</a></li>
       <li><a href="#projeto">Projetos</a></li>
       <li><a href="#social">Social</a></li>
       <li><a href="#newsletter">Newsletter</a></li>
       <li><a href="#newsletter">Newsletter</a></li>
+      
     </ul>
   </nav>
 
@@ -79,7 +83,7 @@
           alt="Technology illustrations by Storyset"></a>
     </div>
     <div class="container-newsletter-secundario">
-      <form class="newsletter-form" action="index.html" method="post">
+      <form class="newsletter-form" action="https://formsubmit.co/marceloamellopaixao@gmail.com" method="POST">
         <div class="newsletter-form-container">
           <h2 class="newsletter-title">Inscreva-se na Newsletter</h2>
           <p class="newsletter-paragrafo">para receber noticias em seu e-mail</p>
@@ -88,6 +92,7 @@
               required />
 
             <input class="interface-input2" type="submit" value="Subscribe" title="Enviar" onclick="subscribeBtn()" />
+            <input type="hidden" name="_next" value="https://portmar.firebaseapp.com/thanks.html">
           </div>
         </div>
       </form>

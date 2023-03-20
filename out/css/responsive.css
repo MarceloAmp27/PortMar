@@ -262,7 +262,7 @@
 
 @media (max-width: 380px) {
 
-  /* #menu-h .menu-ul{
+  #menu-h .menu-ul{
     height: 100%;
     flex-direction: column;
   }
@@ -270,7 +270,7 @@
   .menu-title{
     margin-right: 0;
     padding-left: 0;
-  } */
+  }
 
   .container-about-principal {
     margin-top: 20vh;
