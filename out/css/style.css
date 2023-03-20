@@ -184,7 +184,7 @@ body::-webkit-scrollbar-thumb {
   cursor: pointer;
 }
 
-/* Section Social */
+/* Section Social
 
 .container-social-principal {
   display: flex;
@@ -194,7 +194,7 @@ body::-webkit-scrollbar-thumb {
   width: 100%;
   height: 25vh;
   margin-top: 5vh;
-  /* border-top: 3px solid #205cd4; */
+  // border-top: 3px solid #205cd4;
 }
 
 .container-social-secundario {
@@ -210,7 +210,26 @@ body::-webkit-scrollbar-thumb {
 
   border-radius: 10px;
   box-shadow: 5px 5px 50px rgb(0 7 18);
+
+  position: relative;
+
 }
+
+.social-icon-link{
+  text-decoration: none;
+  color: #a1a1aa;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 24px;
+  gap: 15px;
+  transition: all 0.4s;
+}
+
+.social-icon-link:hover{
+  color:rgb(4, 83, 4);
+} 
+*/
 
 /* Section Newsletter */
 .container-newsletter-principal {
