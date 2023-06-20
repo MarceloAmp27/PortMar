@@ -37,25 +37,6 @@ function page4() {
   }
 }
 
-// function page5() {
-//   if (!onclick) {
-//     showLoading();
-//     setTimeout(function () {
-//       window.location.href =
-//         "./projects/content/rocketseat/social-tree/index.html";
-//     }, 2800);
-//   }
-// }
-
-// function page6() {
-//   if (!onclick) {
-//     showLoading();
-//     setTimeout(function () {
-//       window.location.href = "./projects/content/alura/pong-js/index.html";
-//     }, 2800);
-//   }
-// }
-
 function seeMore() {
   if (!onclick) {
     showLoading();

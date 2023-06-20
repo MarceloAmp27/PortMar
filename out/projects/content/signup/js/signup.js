@@ -1,7 +1,5 @@
 /* Alert initial questions */
 
-alert("Bem vindo ao PortMar!");
-
 alert("Você acessou a página de cadastro");
 let cnfmCnte = confirm("Deseja continuar?");
 
@@ -9,10 +7,10 @@ if (cnfmCnte == true) {
   alert("Você está sendo direcionado para a página de cadastro.");
 } else if (cnfmCnte == false) {
   alert("Você selecionou a opção 'NÃO'");
-  location.href = "../html/login.html";
+  location.href = "../login/login.html";
 } else {
   alert("Você está sendo direcionado para a página de login, aguarde.");
-  location.href = "../html/login.html";
+  location.href = "../login/login.html";
 }
 
 // COMMANDS FOR VERIFICATION OF CREATE PASSWORD

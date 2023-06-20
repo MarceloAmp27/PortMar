@@ -1,0 +1,84 @@
+@media only screen and (max-width: 1320px) {
+    header {
+        padding: 0 50px;
+    }
+}
+
+@media only screen and (max-width: 1100px) {
+    header {
+        padding: 0 30px;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    body.inative-roll {
+        overflow: hidden;
+    }
+
+    #menu-h {
+        padding: 0 30px;
+    }
+
+    .hamburguer {
+        display: block;
+        cursor: pointer;
+    }
+
+    .hamburguer .line {
+        width: 30px;
+        height: 3px;
+        background-color: #fff;
+        margin: 6px 0;
+        border-radius: 100px;
+    }
+
+    .navbar {
+        height: 0;
+        position: absolute;
+        top: 80px;
+        left: 0;
+        right: 0;
+        width: 100vw;
+        background-color: rgb(12, 25, 102);
+        transition: 0.6s all;
+    }
+
+    .navbar.inative-nav {
+        height: 0;
+        position: absolute;
+        top: 80px;
+        left: 0;
+        right: 0;
+        width: 100vw;
+        background-color: rgb(12, 25, 102);
+        transition: 0.6s all;
+    }
+
+    .navbar.active-nav {
+        height: 100vh;
+    }
+
+    .navbar.inative-nav {
+        height: 0;
+    }
+
+    .navbar .menu-ul{
+        display: none;
+        opacity: 0;
+    }
+
+    .navbar.active-nav ul {
+        transition: 0.9s all;
+        display: flex;
+        flex-direction: column;
+        width: fit-content;
+        margin: 50px auto 0 auto;
+        height: 100%;
+        opacity: 1;
+    }
+
+    .navbar ul li a {
+        margin-bottom: 30px;
+    }
+
+}

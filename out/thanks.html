@@ -1,14 +1,77 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>PortMar - Obrigado</title>
-</head>
-<body>
-    <h1>
-        Obrigado por assinar minha newsletter.
-    </h1>
-</body>
+
+    <style media="screen">
+      body { 
+        background-color: #031e55; 
+        color: rgba(255, 255, 255, 0.87); 
+        font-family: Roboto, Helvetica, Arial, sans-serif; 
+        margin: 0; 
+        padding: 0; }
+      #message { 
+        background: rgb(6, 89, 197); 
+        max-width: 360px; 
+        margin: 15% auto 16px; 
+        padding: 32px 24px 16px; 
+        border-radius: 3px; }
+      #message h3 { 
+        color: rgba(255, 255, 255, 0.507); 
+        font-weight: normal; 
+        font-size: 16px; 
+        margin: 16px 0 12px; }
+      #message h2 { 
+        color: #ffffff; 
+        font-weight: bold; 
+        font-size: 18px; 
+        margin: 0 0 8px; }
+      #message h1 { 
+        font-size: 22px; 
+        font-weight: 300; 
+        color: rgba(255, 255, 255, 0.445); 
+        margin: 0 0 16px;}
+      #message p { 
+        line-height: 140%; 
+        margin: 16px 0 24px; 
+        font-size: 14px; }
+      #message a { 
+        display: block; 
+        text-align: center; 
+        background: #039be5; 
+        text-transform: uppercase; 
+        text-decoration: none; 
+        color: white; 
+        padding: 16px; 
+        border-radius: 4px; }
+      #message, #message a { 
+        box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24); }
+      #load { 
+        color: rgba(0,0,0,0.4); 
+        text-align: center; 
+        font-size: 13px; }
+      @media (max-width: 600px) {
+        body, #message { 
+          margin-top: 0; 
+          background: white; 
+          box-shadow: none; }
+        body { 
+          border-top: 16px solid #ffffff; }
+      }
+    </style>
+  </head>
+  <body>
+    <div id="message">
+      <h2>Obrigado por se inscrever na newsletter!</h2>
+      <h1>Em breve teremos noticias.</h1>
+      <p>Todas as novas informações serão encaminhadas via e-mail.</p>
+      <h3>Quaisquer dúvidas entrar em contato no link abaixo.</h3>
+      <p><a href="#">Contate-nos</a></p>
+    </div>
+    <script>
+      messageAlert = document.getElementById('message')
+    </script>
+  </body>
 </html>

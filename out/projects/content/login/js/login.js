@@ -5,7 +5,6 @@ let btnMain = document.getElementById("returnMain");
 let local = "../../index.html";
 
 function loadPage() {
-  alert("Olá, bem vindo a página de Login, utilize os dados a seguir.");
   alert("E-mail: teste@teste.com");
   alert("Password: testPassword");
 }
